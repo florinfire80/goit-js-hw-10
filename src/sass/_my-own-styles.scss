@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 50%;
+}
+.breed-select {
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cat-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; /* Ajustați valoarea pentru a se potrivi dimensiunilor dorite */
+}
+.cat-info img {
+  width: 50%; /* Ajustați dimensiunea imaginii */
+  height: auto;
+  margin-right: 20px;
+}
+.error {
+  display: none;
+  color: red; /* Stilurile pentru textul de eroare (opțional) */
+}
+.loader {
+  display: none;
+}
+
+// Backup ================================================
+
+// body {
+//     font-family: Arial, sans-serif;
+//     margin: 0;
+//     padding: 0;
+//     background-color: #f0f0f0;
+//   }
+//   .container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin: 0 auto;
+//     margin-top: 30px;
+//     width: 50%;
+//   }
+//   .breed-select {
+//     width: 200px;
+//     height: 40px;
+//     margin-top: 20px;
+//     margin-bottom: 20px;
+//     border: 2mm ridge rgba(211, 220, 50, 0.6);
+//   }
+//   .cat-info {
+//     display: flex;
+//     align-items: center;
+//     width: 100%;
+//     max-width: 800px;
+//   }
+//   .cat-info img {
+//     width: 50%;
+//     height: auto;
+//     margin-right: 20px;
+//   }
+//   .error {
+//     display: none;
+//     color: red;
+//   }
+//   .loader {
+//     display: none;
+//   }
+
+//   =======================================================================
